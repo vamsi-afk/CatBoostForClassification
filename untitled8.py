@@ -12,7 +12,7 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv('modfied_card.csv')
+dataset = pd.read_csv('insert_your_dataset_here')
 X = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,-1].values
 
